@@ -9,6 +9,5 @@ public class Main {
         System.out.println("\t\t\t~Problema 1~");
         System.out.println("~ Cerinta 1 (Notele sub 40): " + Arrays.toString(Problema1.noteMaiMiciDecat40(note)));
     }
-
 }
 
