@@ -14,5 +14,18 @@ public class Problema1 {
         return Arrays.copyOf(listaNoteProaste, cnt);
     }
 
-
+    // Cerinta 2
+    public static double mediaNotelor(int[] note) {
+        int s = 0;
+        if (note.length == 0) {
+            return 0.000;
+        }
+        for (int i = 0; i < note.length; i++) {
+            int n = note[i];
+            {
+                if (n >= 0 && n <=100)
+                    s += n;
+            }}
+        return (double) s / note.length;
+    }
 }
