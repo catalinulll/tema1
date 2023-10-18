@@ -28,4 +28,26 @@ public class Problema1 {
             }}
         return (double) s / note.length;
     }
+
+    // Cerinta 3
+    public static int[] noteleRotunjite(int[] note) {
+        int[] noteRotunjite = new int[note.length];
+        for (int i = 0; i < note.length; i++) {
+            if (note[i] >= 0 && note[i] <= 100) {
+                if (note[i] < 38) {
+                    noteRotunjite[i] = note[i];
+                } else {
+                    int urmMultDe5 = ((note[i] + 4) / 5) * 5;
+                    if (urmMultDe5 - note[i] < 3) {
+                        noteRotunjite[i] = urmMultDe5;
+                    } else {
+                        noteRotunjite[i] = note[i];
+                    }
+                }
+            } else {
+                noteRotunjite[i] = -1;
+            }
+        }
+        return noteRotunjite;
+    }
 }

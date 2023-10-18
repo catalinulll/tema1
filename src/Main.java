@@ -9,6 +9,7 @@ public class Main {
         System.out.println("\t\t\t~Problema 1~");
         System.out.println("~ Cerinta 1 (Notele sub 40): " + Arrays.toString(Problema1.noteMaiMiciDecat40(note)));
         System.out.println("~ Cerinta 2 (Media notelor): " + Problema1.mediaNotelor(note));
+        System.out.println("~ Cerinta 3 (Notele rotunjite): " + Arrays.toString(Problema1.noteleRotunjite(note)));
     }
 }
 
