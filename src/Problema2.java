@@ -15,4 +15,17 @@ public class Problema2 {
             }
         }
         return nrMax;
-    }}
+    }
+
+    // Cerinta 2
+    public int nrMinim() {
+        int nrMin = nr[0];
+        for (int i = 0; i < nr.length; i++) {
+            int n = nr[i];
+            if (n < nrMin) {
+                nrMin = n;
+            }
+        }
+        return nrMin;
+    }
+}
