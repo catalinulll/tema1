@@ -50,4 +50,25 @@ public class Problema1 {
         }
         return noteRotunjite;
     }
+
+    // Cerinta 4
+    public static int ceaMaiMareNotaRotunjita(int[] note) {
+        int notaMax = -1;
+        for (int i = 0; i < note.length; i++) {
+            int n = note[i];
+            int urmMultDe5 = ((n + 4) / 5) * 5;
+            if (n >=0 && n<=100){
+                if (n < 38) {
+                    if (n > notaMax) {
+                        notaMax = n;
+                    }
+
+                } else {
+                    if (urmMultDe5 > notaMax) {
+                        notaMax = urmMultDe5;
+                    }
+                }
+            }}
+        return notaMax;
+    }
 }

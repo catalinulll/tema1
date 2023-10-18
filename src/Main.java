@@ -10,6 +10,8 @@ public class Main {
         System.out.println("~ Cerinta 1 (Notele sub 40): " + Arrays.toString(Problema1.noteMaiMiciDecat40(note)));
         System.out.println("~ Cerinta 2 (Media notelor): " + Problema1.mediaNotelor(note));
         System.out.println("~ Cerinta 3 (Notele rotunjite): " + Arrays.toString(Problema1.noteleRotunjite(note)));
+        System.out.println("~ Cerinta 4 (Cea mai mare nota rotunjita): " + Problema1.ceaMaiMareNotaRotunjita(note));
+        System.out.println("\n");
     }
 }
 
