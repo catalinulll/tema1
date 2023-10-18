@@ -12,6 +12,13 @@ public class Main {
         System.out.println("~ Cerinta 3 (Notele rotunjite): " + Arrays.toString(Problema1.noteleRotunjite(note)));
         System.out.println("~ Cerinta 4 (Cea mai mare nota rotunjita): " + Problema1.ceaMaiMareNotaRotunjita(note));
         System.out.println("\n");
+
+        // Problema 2
+
+        int[] nr = {-1, -89, 45, 1, 117, 35, 0};
+        Problema2 problema2 = new Problema2(nr);
+        System.out.println("\t\t\t~Problema 2~");
+        System.out.println("~ Cerinta 1 (Numarul cel mai mare): " + problema2.nrMaxim());
     }
 }
 
