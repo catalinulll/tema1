@@ -37,6 +37,14 @@ public class Main {
         System.out.println("~ Cerinta 3 (Inmultire): " + Arrays.toString(inmultireCalculata));
         System.out.println("~ Cerinta 4 (Impartire): " + Arrays.toString(impartireCalculata));
         System.out.println("\n");
+
+        // Problema 4
+
+        int[] pretT = {40, 35, 70, 15, 45};
+        int[] pretUSB = {20, 25, 40, 15};
+        int buget = 60;
+        System.out.println("\t\t\t~Problema 4~");
+        System.out.println("~ Cerinta 1 (Cmi tastatura): " + Problema4.ceaMaiIeftinaTastatura(pretT));
     }
 }
 
