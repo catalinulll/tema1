@@ -47,4 +47,19 @@ public class Problema4 {
 
         return cms;
     }
+
+    // Cerinta 3
+    // cms = cea mai scumpa
+    public static int ceaMaiScumpaUnitateUSB(int[] pretUSB, int buget) {
+        int cms = -1;
+
+        for (int pret : pretUSB) {
+            if (pret <= buget && pret > cms) {
+                cms = pret;
+            }
+        }
+
+        return cms;
+    }
+
 }
