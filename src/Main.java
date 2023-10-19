@@ -47,6 +47,7 @@ public class Main {
         System.out.println("~ Cerinta 1 (Cmi tastatura): " + Problema4.ceaMaiIeftinaTastatura(pretT));
         System.out.println("~ Cerinta 2 (Cms obiect): " + Problema4.celMaiScumpObiect(pretT, pretUSB));
         System.out.println("~ Cerinta 3 (Cms USB care intra in buget): " + Problema4.ceaMaiScumpaUnitateUSB(pretUSB, buget));
+        System.out.println("~ Cerinta 4 (Buget si preturi): " + Problema4.buget(buget, pretT, pretUSB));
     }
 }
 

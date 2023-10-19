@@ -62,4 +62,20 @@ public class Problema4 {
         return cms;
     }
 
+    // Cerinta 4
+    public static int buget(int buget, int[] pretT, int[] pretUSB) {
+        int cmsT = ceaMaiIeftinaTastatura(pretT);
+        int cmsUSB = ceaMaiScumpaUnitateUSB(pretUSB, buget);
+
+        if (cmsT == -1 || cmsUSB == -1) {
+            return -1;
+        } else {
+            int cheltuieli = cmsT + cmsUSB;
+            if (cheltuieli <= buget) {
+                return cheltuieli;
+            } else {
+                return -1;
+            }
+        }
+    }
 }
