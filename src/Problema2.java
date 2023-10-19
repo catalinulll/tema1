@@ -42,4 +42,18 @@ public class Problema2 {
         }
         return s - nrMin;
     }
+
+    // Cerinta 4
+    public int sumaFaraCelMaiMareNumar() {
+        int s = 0;
+        int nrMax = nr[0];
+        for (int i = 0; i < nr.length; i++) {
+            int n = nr[i];
+            s += n;
+            if (n > nrMax) {
+                nrMax = n;
+            }
+        }
+        return s - nrMax;
+    }
 }

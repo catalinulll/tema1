@@ -21,6 +21,8 @@ public class Main {
         System.out.println("~ Cerinta 1 (Numarul cel mai mare): " + problema2.nrMaxim());
         System.out.println("~ Cerinta 2 (Numarul cel mai mic): " + problema2.nrMinim());
         System.out.println("~ Cerinta 3 (Suma fara cel mai mic nr): " + problema2.sumaFaraCelMaiMicNumar());
+        System.out.println("~ Cerinta 4 (Suma fara cel mai mare nr): " + problema2.sumaFaraCelMaiMareNumar());
+        System.out.println("\n");
     }
 }
 
