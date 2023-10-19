@@ -28,4 +28,18 @@ public class Problema2 {
         }
         return nrMin;
     }
+
+    // Cerinta 3
+    public int sumaFaraCelMaiMicNumar() {
+        int s = 0;
+        int nrMin = nr[0];
+        for (int i = 0; i < nr.length; i++) {
+            int n = nr[i];
+            s += n;
+            if (n < nrMin) {
+                nrMin = n;
+            }
+        }
+        return s - nrMin;
+    }
 }
