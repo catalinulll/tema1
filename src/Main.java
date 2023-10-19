@@ -50,4 +50,3 @@ public class Main {
         System.out.println("~ Cerinta 4 (Buget si preturi): " + Problema4.buget(buget, pretT, pretUSB));
     }
 }
-
