@@ -29,4 +29,24 @@ public class Problema3 {
 
         return finall;
     }
+
+    // Cerinta 2
+    public int[] diferenta() {
+        int n = x.length;
+        int[] finall = new int[n];
+        int ceSeIa = 0;
+
+        for (int i = n - 1; i >= 0; i--) {
+            int d = x[i] - y[i] - ceSeIa;
+            if (d < 0) {
+                d += 10;
+                ceSeIa = 1;
+            } else {
+                ceSeIa = 0;
+            }
+            finall[i] = d;
+        }
+
+        return finall;
+    }
 }

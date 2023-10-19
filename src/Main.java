@@ -28,8 +28,10 @@ public class Main {
         int[] y = {8, 7, 0, 0, 0, 0, 0, 0, 0};
         Problema3 problema3 = new Problema3(x, y);
         int[] sumaCalculata = problema3.suma();
+        int[] diferentaCalculata = problema3.diferenta();
         System.out.println("\t\t\t\t~Problema 3~");
         System.out.println("~ Cerinta 1 (Suma): " + Arrays.toString(sumaCalculata));
+        System.out.println("~ Cerinta 2 (Diferenta): " + Arrays.toString(diferentaCalculata));
     }
 }
 
