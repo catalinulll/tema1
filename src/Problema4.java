@@ -16,4 +16,35 @@ public class Problema4 {
 
         return cmi;
     }
+
+    // Cerinta 2
+    // cms = cel mai scump
+    public static int celMaiScumpObiect(int[] pretT, int[] pretUSB) {
+        int cms = -1;
+
+        if (pretT.length > 0) {
+            int maxPretT = pretT[0];
+            for (int val : pretT) {
+                if (val > maxPretT) {
+                    maxPretT = val;
+                }
+            }
+            cms = maxPretT;
+        }
+
+        if (pretUSB.length > 0) {
+            int maxPretUSB = pretUSB[0];
+            for (int val : pretUSB) {
+                if (val > maxPretUSB) {
+                    maxPretUSB = val;
+                }
+            }
+
+            if (maxPretUSB > cms) {
+                cms = maxPretUSB;
+            }
+        }
+
+        return cms;
+    }
 }

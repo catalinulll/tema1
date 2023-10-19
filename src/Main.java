@@ -45,6 +45,7 @@ public class Main {
         int buget = 60;
         System.out.println("\t\t\t~Problema 4~");
         System.out.println("~ Cerinta 1 (Cmi tastatura): " + Problema4.ceaMaiIeftinaTastatura(pretT));
+        System.out.println("~ Cerinta 2 (Cms obiect): " + Problema4.celMaiScumpObiect(pretT, pretUSB));
     }
 }
 
