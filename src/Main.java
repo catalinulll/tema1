@@ -23,6 +23,13 @@ public class Main {
         System.out.println("~ Cerinta 3 (Suma fara cel mai mic nr): " + problema2.sumaFaraCelMaiMicNumar());
         System.out.println("~ Cerinta 4 (Suma fara cel mai mare nr): " + problema2.sumaFaraCelMaiMareNumar());
         System.out.println("\n");
+
+        int[] x = {1, 3, 0, 0, 0, 0, 0, 0, 0};
+        int[] y = {8, 7, 0, 0, 0, 0, 0, 0, 0};
+        Problema3 problema3 = new Problema3(x, y);
+        int[] sumaCalculata = problema3.suma();
+        System.out.println("\t\t\t\t~Problema 3~");
+        System.out.println("~ Cerinta 1 (Suma): " + Arrays.toString(sumaCalculata));
     }
 }
 
