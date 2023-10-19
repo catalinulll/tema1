@@ -49,4 +49,26 @@ public class Problema3 {
 
         return finall;
     }
+
+    // Cerinta 3
+    public int[] inmultire(int c) {
+        int n = x.length;
+        int[] finall = new int[n];
+        int ceRamane = 0;
+
+        for (int i = n - 1; i >= 0; i--) {
+            int p = x[i] * c + ceRamane;
+            finall[i] = p % 10;
+            ceRamane = p / 10;
+        }
+
+        if (ceRamane > 0) {
+            int[] rez = new int[n + 1];
+            rez[0] = ceRamane;
+            System.arraycopy(finall, 0, rez, 1, n);
+            return rez;
+        }
+
+        return finall;
+    }
 }
