@@ -30,10 +30,13 @@ public class Main {
         int[] sumaCalculata = problema3.suma();
         int[] diferentaCalculata = problema3.diferenta();
         int[] inmultireCalculata = problema3.inmultire(2);
+        int[] impartireCalculata = problema3.impartire(2);
         System.out.println("\t\t\t\t~Problema 3~");
         System.out.println("~ Cerinta 1 (Suma): " + Arrays.toString(sumaCalculata));
         System.out.println("~ Cerinta 2 (Diferenta): " + Arrays.toString(diferentaCalculata));
         System.out.println("~ Cerinta 3 (Inmultire): " + Arrays.toString(inmultireCalculata));
+        System.out.println("~ Cerinta 4 (Impartire): " + Arrays.toString(impartireCalculata));
+        System.out.println("\n");
     }
 }
 

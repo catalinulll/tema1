@@ -71,4 +71,19 @@ public class Problema3 {
 
         return finall;
     }
+
+    // Cerinta 4
+    public int[] impartire(int c) {
+        int n = x.length;
+        int[] finall = new int[n];
+        int r = 0;
+
+        for (int i = 0; i < n; i++) {
+            int curr = y[i] + r * 10;
+            finall[i] = curr / c;
+            r = curr % c;
+        }
+
+        return finall;
+    }
 }
